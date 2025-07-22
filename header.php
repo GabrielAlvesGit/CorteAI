@@ -12,9 +12,9 @@
   <!-- Final Wordpress Header -->
 </head>
 
-<body><?php body_class(); ?>
-
-  <?php get_template_part('partials/Global/header'); ?>
+<body>
+  
+<?php get_template_part('partials/Global/header'); ?>
 
   <!-- Breadcrumbs - Usado para Home > Faqs.. -->
   <!-- <div class="breadcrumbs">

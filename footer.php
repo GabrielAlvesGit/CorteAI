@@ -1,15 +1,8 @@
 </main>
 
 <!-- Inicio Wordpress Footer -->
-<?php
-get_template_part('partials/Global/footer');
-wp_footer();
-
-?>
-
-<?php
-
-?>
+<?php wp_footer(); ?>
+<!-- Final Wordpress Footer -->
 </body>
 
 </html>

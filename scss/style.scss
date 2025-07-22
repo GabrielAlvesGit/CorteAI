@@ -1,0 +1,20 @@
+/*
+Theme Name: Corte IA
+Theme URI: http://corteAI.com
+Author: Gabriel Alves
+Author URI: http://BusinessIA.com/
+Description: Tema criado para o Corte IA - Agendamento online de Corte
+Version: 1.0
+*/
+
+/*=============== Imports Scss ===============*/
+/* OBS:
+´´´´´´´´´´ Como estou usando a versão 3.0.0 do Scss @import 
+´´´´´´´´´´ foi descontinuado então estou usando o @use 
+                                                            */
+
+/* ======== Base ======== */
+@use './base/reset';
+
+/* ======== Global ======== */
+@use './global/header';

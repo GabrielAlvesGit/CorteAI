@@ -1,10 +1,9 @@
 <?php
 /* Template Name: Home */
-get_header(); ?>
+get_header();
 
 
-<section>
-  teste
-</section>
 
-<?php get_footer(); ?>
+get_footer();
+
+?>

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*
+Theme Name: Corte IA
+Theme URI: http://corteAI.com
+Author: Gabriel Alves
+Author URI: http://BusinessIA.com/
+Description: Tema criado para o Corte IA - Agendamento online de Corte
+Version: 1.0
+*/
+/*=============== Imports Scss ===============*/
+/* OBS:
+´´´´´´´´´´ Como estou usando a versão 3.0.0 do Scss @import 
+´´´´´´´´´´ foi descontinuado então estou usando o @use 
+                                                            */
+/* ======== Base ======== */
+/*=============== BASE RESET ===============*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: auto;
+  background-color: red;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+::after,
+::before,
+input {
+  outline: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ======== Global ======== */
+
+/*# sourceMappingURL=style.css.map */
