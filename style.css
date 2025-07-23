@@ -14,6 +14,13 @@ Version: 1.0
                                                             */
 /* ======== Base ======== */
 /*=============== BASE RESET ===============*/
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*=============== VARIABLES Font Google ===============*/
+/*=============== VARIABLES Size ===============*/
+/*=============== VARIABLES Color ===============*/
+/*=============== VARIABLES Shadow ===============*/
+/*=============== VARIABLES Shadow ===============*/
 * {
   padding: 0;
   margin: 0;
@@ -23,21 +30,45 @@ Version: 1.0
 html {
   scroll-behavior: smooth;
   overflow: auto;
-  background-color: red;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
 
 body {
   display: flex;
   height: 100%;
   flex-direction: column;
+  background-color: #FAFAFA;
+  color: #232222;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  color: #A67244;
 }
 
 ul {
   list-style: none;
 }
 
-a {
+a, p {
   text-decoration: none;
+  color: #232222;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+p {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 ::after,
@@ -61,6 +92,125 @@ section {
   justify-content: space-between;
 }
 
+/*=============== Container ===============*/
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*========== Breakpoints ==========*/
+/*=============== BREAKPOINTS ===============*/
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+/* For large devices */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1247px;
+  }
+}
 /* ======== Global ======== */
+.header {
+  padding: 8px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1490196078);
+}
+.header__top > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__top__logo {
+  width: 49px;
+  height: 49px;
+}
+.header__top__logo__figure {
+  width: 100%;
+  height: 100%;
+}
+.header__top__logo__figure__link {
+  display: contents;
+}
+.header__top__logo__figure__link__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header__top__navigation .menu-primary .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header__top__navigation .menu-primary .menu > .menu-item a {
+  display: block;
+  font-size: 12px;
+  padding: 5px 10px 5px 5px;
+}
+
+/* ======== Pages ======== */
+.pgHome__banner {
+  height: 562px;
+}
+.pgHome__banner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pgHome__about {
+  padding: 64px 0 64px 0;
+}
+.pgHome__about__content {
+  display: flex;
+  align-items: stretch;
+}
+.pgHome__about__content__left {
+  width: 50%;
+}
+.pgHome__about__content__left__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pgHome__about__content__right {
+  background-color: #A6874B;
+  width: 50%;
+}
+.pgHome__about__content__right > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 90px;
+  margin-left: 0;
+  width: 600px;
+  height: 558px;
+}
+.pgHome__about__content__right__title {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 52px;
+  margin-bottom: 16px;
+}
+.pgHome__about__content__right__text {
+  font-size: 16px;
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,6 @@
 /*=============== BASE RESET ===============*/
+@use './variables' as *;
+
 * {
   padding: 0;
   margin: 0;
@@ -8,14 +10,13 @@
 html {
   scroll-behavior: smooth;
   overflow: auto;
-  background-color: red;
 }
 
 body,
 button,
 input {
-  // font-family: var(--body-font);
-  // font-size: var(--normal-font-size);
+  font-family: $body-font;
+  font-size: $normal-font-size;
 }
 
 body {
@@ -23,23 +24,32 @@ body {
   height: 100%;
   //overflow: hidden;
   flex-direction: column;
-  // background-color: var(--body-color);
-  // color: var(--title-color);
+  background-color: $primary-color-body;
+  color: $primary-color-black;
 }
 
 h1,
 h2,
 h3 {
-  // color: var(--title-color);
-  // font-weight: var(--font-semi-bold);
+     font-weight: $font-bold-400;
+     color: $primary-color-gold;
 }
 
 ul {
   list-style: none;
 }
 
-a {
+a, p {
   text-decoration: none;
+  color: $primary-color-black;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+p {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 ::after,

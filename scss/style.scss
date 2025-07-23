@@ -15,6 +15,12 @@ Version: 1.0
 
 /* ======== Base ======== */
 @use './base/reset';
+@use './base/variables';
+@use './base/grid';
 
 /* ======== Global ======== */
 @use './global/header';
+
+/* ======== Pages ======== */
+@use './pages/banner';
+@use './pages/about'

@@ -1,5 +1,24 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/*=============== VARIABLES SCSS ===============*/
+/*=============== VARIABLES Font Google ===============*/
+$body-font: 'Roboto', sans-serif;
 
+/*=============== VARIABLES Size ===============*/
+$normal-font-size: 12px;
+$medium-font-size: 16px;
+
+$h2-font-size: 32px;
+
+/*=============== VARIABLES Color ===============*/
+$primary-color-body: #FAFAFA;
+$primary-color-white: #fff;
+$primary-color-black: #232222;
+$primary-color-gold: #A67244;
+$secondary-color-gold: #A6874B;
+
+/*=============== VARIABLES Shadow ===============*/
+$font-bold-400: 400;
+
+/*=============== VARIABLES Shadow ===============*/
+$boxShadow-header: 0 2px 4px #00000026;
