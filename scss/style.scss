@@ -21,6 +21,7 @@ Version: 1.0
 /* ======== Global ======== */
 @use './global/header';
 @use './global/scheduling';
+@use './global/footer';
 
 /* ======== Pages ======== */
 @use './pages/banner';
