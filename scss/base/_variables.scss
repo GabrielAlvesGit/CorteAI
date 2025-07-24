@@ -5,20 +5,26 @@
 $body-font: 'Roboto', sans-serif;
 
 /*=============== VARIABLES Size ===============*/
-$normal-font-size: 12px;
-$medium-font-size: 16px;
+$font-size--xs: 12px;   
+$font-size--sm: 14px;   
+$font-size--md: 16px; 
+$font-size--lg: 18px;
 
 $h2-font-size: 32px;
+$h3-font-size: 24px;
 
 /*=============== VARIABLES Color ===============*/
 $primary-color-body: #FAFAFA;
 $primary-color-white: #fff;
 $primary-color-black: #232222;
+$primary-color-gray: #666;
 $primary-color-gold: #A67244;
 $secondary-color-gold: #A6874B;
 
 /*=============== VARIABLES Shadow ===============*/
 $font-bold-400: 400;
+$font-bold-500: 500;
+$font-bold-700: 500;
 
 /*=============== VARIABLES Shadow ===============*/
 $boxShadow-header: 0 2px 4px #00000026;
