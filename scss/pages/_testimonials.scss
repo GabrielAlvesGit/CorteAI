@@ -52,13 +52,13 @@
                 &__info {
 
                     &__name {
-                        font-size: 18px;
+                        font-size: $font-size-lg;
                         line-height: 1.6;
                         font-weight: $font-bold-700;
                     }
 
                     &__date {
-                        font-size: 14px;
+                        font-size: $font-size-sm;
                         color: $primary-color-gray;
                     }
                 }
