@@ -20,8 +20,14 @@
     }
 
     &__cards {
-     
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
         &__card {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
             width: 30%;
             background-color: $primary-color-white;
             border-radius: 8px;
@@ -60,6 +66,27 @@
                     &__date {
                         font-size: $font-size-sm;
                         color: $primary-color-gray;
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+            }
+
+            &__description {
+
+                &__text {
+                    font-size: $font-size-md;
+                    font-style: italic;
+                    line-height: 1.8;
+                    font-weight: $font-bold-700;
+
+                    &::before {
+                        content: '“';
+                        font-size: 20px;
+                        color: $primary-color-gold;
+                        font-size: 41px;
+                        height: 28px;
+                        display: inline-block;
                     }
                 }
             }
