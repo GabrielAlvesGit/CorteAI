@@ -8,7 +8,7 @@
             <article class="header__top__logo">
                 <figure class="header__top__logo__figure">
                     <a class="header__top__logo__figure__link" href="#">
-                        <img class="header__top__logo__figure__link__img" src="<?php echo get_template_directory_uri();?>/img/logo/wevever.PNG" alt="logo">
+                        <img class="header__top__logo__figure__link__img" src="<?php echo get_template_directory_uri();?>/img/logo/logo.png" alt="logo">
                     </a>
                 </figure>
             </article>

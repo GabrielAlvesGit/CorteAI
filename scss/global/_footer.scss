@@ -1,0 +1,89 @@
+@use '../base/variables' as *;
+
+.footer {
+    padding: 64px 0 64px 0;
+    background-color: $secondary-color-black;
+   
+    &__top {
+  
+        >.container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 0 0 40px 0;
+        }
+
+        &__address {
+
+            &__text,&__link {
+                color: $primary-color-white;
+                font-size: $font-size-xs;
+                font-weight: $font-bold-400;
+                line-height: 16px;
+            }
+        }
+
+        &__navigation {
+
+            &__list {
+
+                &__item {
+
+                    &__link {
+                        font-size: $font-size-sm;
+                        color: $primary-color-white;
+                        font-weight: $font-bold-700;
+                        line-height: 20px;
+                    }
+
+                    .subMenu {
+                        
+                        &__item {
+
+                            &__link {
+                                font-size: $font-size-xs;
+                                color: $primary-color-white;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        width: 100%;
+        border-top: 1px solid #a6724414;
+        padding: 30px 0 20px 0;
+
+        >.container {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+
+        &__copyright,
+        &__poweredBy {
+            color: $primary-color-white;
+            font-size: $font-size-xs;
+            font-weight: $font-bold-400;
+            line-height: 16px;
+            padding: 0;
+            margin: 0;
+        }
+
+        &__policyPrivacy {
+
+            &__item {
+
+                &__link {
+                    color: $primary-color-white;
+                    font-size: $font-size-xs;
+                    font-weight: $font-bold-400;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}

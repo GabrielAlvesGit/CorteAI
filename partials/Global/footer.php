@@ -1,15 +1,15 @@
 <footer class="footer">
-    <div class="container">
-        <div class="footer__top">
+    <div class="footer__top">
+            <div class="container">
             <address class="footer__top__address">
-                You can contact author at
-                <a href="http://www.example.com/contact">www.example.com</a>.<br />
-                If you see any bugs, please
-                <a href="mailto:webmaster@example.com">contact webmaster</a>.<br />
-                You may also want to visit us:<br />
-                Mozilla Foundation<br />
-                331 E Evelyn Ave<br />
-                Mountain View, CA 94041<br />
+                <p class="footer__top__address__text">You can contact author at</p>
+                
+                <a class="footer__top__address__link" href="#">www.example.com</a>.
+                
+                <p class="footer__top__address__text">You may also want to visit us:</p>
+                <p class="footer__top__address__text">Mozilla Foundation</p>
+                <p class="footer__top__address__text">331 E Evelyn Ave</p>
+                <p class="footer__top__address__text">Mountain View, CA 94041</p>
             </address>
 
             <div class="footer__top__navigation">
@@ -26,21 +26,23 @@
                 </ul>
             </div>
         </div>
+    </div>
 
         <div class="footer__bottom">
-            <p class="footer__bottom__copyright">© 2025 Copyright.<br>Todos os direitos reservados</p>
+            <div class="container">
+                <p class="footer__bottom__copyright">© 2025 Copyright.<br>Todos os direitos reservados</p>
 
-            <a href="#" target="_blank" class="footer__bottom__poweredBy">Powered by <b>LOREM</b></a>
+                <a href="#" target="_blank" class="footer__bottom__poweredBy">Powered by <b>LOREM</b></a>
 
 
-            <ul class="footer__bottom__policyPrivacy">
-                <li>
-                    <a href="" target="_blank">Política de Privacidade</a>
-                </li>
-                <li>
-                    <a href="#" target="_blank">Termos e Condições de Uso</a>
-                </li>
-            </ul>
+                <ul class="footer__bottom__policyPrivacy">
+                    <li class="footer__bottom__policyPrivacy__item">
+                        <a class="footer__bottom__policyPrivacy__item__link" href="#" target="_blank">Política de Privacidade</a>
+                    </li>
+                    <li class="footer__bottom__policyPrivacy__item">
+                        <a class="footer__bottom__policyPrivacy__item__link" href="#" target="_blank">Termos e Condições de Uso</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 </footer>
